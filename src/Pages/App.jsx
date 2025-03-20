@@ -7,7 +7,6 @@ import LeatherProducts from '../Components/LeatherProducts.jsx'
 import ScarvesProducts from '../Components/ScarvesProducts.jsx'
 import PaperProducts from '../Components/PaperProducts.jsx'
 import Footer from '../Components/Footer.jsx'
-import ScarvesHero from '../Components/ScarvesHero.jsx'
 import Prefooter from '../Components/Prefooter.jsx'
 import PaperHero from '../Components/PaperHero.jsx'
 
