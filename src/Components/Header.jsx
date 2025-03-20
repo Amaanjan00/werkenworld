@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import logo from '../assets/logo.png'
 import menu from '../assets/menu.png'
 import close from '../assets/close.png'
+import { Link } from 'react-router-dom'
 
 function Header() {
 
@@ -19,13 +20,13 @@ function Header() {
             <nav className='hidden sm:flex text-[14px]  font-medium text-gray-700'>
                 <ul className='flex'>
                     <li>
-                        <a className='px-4 py-2' href="/">Home</a>
+                        <Link className='px-4 py-2' to="/">Home</Link>
                     </li>
                     <li>
-                        <a className='px-4 py-2' href="/about">About Us</a>
+                        <Link className='px-4 py-2' to="/about">About Us</Link>
                     </li>
                     <li>
-                        <a className='px-4 py-2' href="/contact">Contact</a>
+                        <Link className='px-4 py-2' to="/Contact">Contact</Link>
                     </li>
                 </ul>
             </nav>
@@ -50,18 +51,15 @@ function Header() {
 
                     <nav className='sm:flex text-[14px] text-gray-700'>
                         <ul className='flex flex-col text-2xl gap-6 text-white'>
-                            <li>
-                                <a className='px-4 py-2' href="/">Home</a>
-                            </li>
-                            <li>
-                                <a className='px-4 py-2' href="/about">About Us</a>
-                            </li>
-                            <li>
-                                <a className='px-4 py-2' href="/contact">Contact</a>
-                            </li>
-                            <li>
-                                <a className='px-4 py-2' href="/artisans">Artisans</a>
-                            </li>
+                        <li>
+                            <Link className='px-4 py-2' to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link className='px-4 py-2' to="/about">About Us</Link>
+                        </li>
+                        <li>
+                            <Link className='px-4 py-2' to="/Contact">Contact</Link>
+                        </li>
                         </ul>
                     </nav>
 
