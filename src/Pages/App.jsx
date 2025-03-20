@@ -21,7 +21,6 @@ function App() {
     <ToysProducts/>
     <LeatherHero/>
     <LeatherProducts/>
-    <ScarvesHero/>
     <ScarvesProducts/>
     <PaperHero/>
     <PaperProducts/>

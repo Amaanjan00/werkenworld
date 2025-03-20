@@ -6,6 +6,9 @@ function About() {
   return (
     <>
     <Header/>
+    <div className='p-7 text-2xl font-medium'>
+      About
+    </div>
     <Footer/>
     </>
   )

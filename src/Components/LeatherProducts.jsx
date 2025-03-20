@@ -19,51 +19,30 @@ function LeatherProducts() {
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p1} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Indian Doll</h2>
-                    </div>
                 </div>
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p2} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Hacky Sack</h2>
-                    </div>
                 </div>
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p3} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Punjabi Doll</h2>
-                    </div>
                 </div>
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p4} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Ten little Bears</h2>
-                    </div>
                 </div>
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p5} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Family Set</h2>
-                    </div>
                 </div>
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p6} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Dinosaur Set</h2>
-                    </div>
                 </div>
 
                 <div className='flex justify-start items-start center shrink-0 flex-col rounded-2xl relative'>
                     <img className='h-100 w-70 rounded-2xl object-cover' src={p7} alt="" />
-                    <div className='px-4 py-8 absolute w-full h-full items-end flex'>
-                        <h2 className='text-[24px] font-bold text-white bg-amber-600 px-4 py-2'>Dinosaur Set</h2>
-                    </div>
                 </div>
 
             </div>
