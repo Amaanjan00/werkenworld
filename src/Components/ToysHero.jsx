@@ -5,7 +5,7 @@ function ToysHero() {
   return (
     <>
     <div className='flex flex-col w-full h-90 mt-5 sm:px-40 px-4'>
-        <h2 className='text-2xl py-4 font-bold'>TOYS THAT MATTER!</h2>
+        <h2 className='text-4xl py-4 font-bold'>TOYS THAT MATTER!</h2>
         <img className='object-cover h-full w-full rounded-2xl' src={hero} alt="" />
     </div>
     <div className='px-5 sm:px-50'>
