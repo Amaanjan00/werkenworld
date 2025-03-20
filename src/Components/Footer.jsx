@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -21,9 +22,9 @@ function Footer() {
                 <div className="lg:mx-auto text-left ">
                     <h4 className="text-lg text-gray-900 font-medium mb-7">Tripverse</h4>
                     <ul className="text-sm  transition-all duration-500">
-                        <li className="mb-6"><a href="/"  className="text-gray-600 hover:text-gray-900">Home</a></li>
-                        <li className="mb-6"><a href="/about"  className=" text-gray-600 hover:text-gray-900">About</a></li>
-                        <li><a href="/contact"  className=" text-gray-600 hover:text-gray-900">Contact</a></li>
+                        <li className="mb-6"><Link to="/"  className="text-gray-600 hover:text-gray-900">Home</Link></li>
+                        <li className="mb-6"><Link to="/about" className=" text-gray-600 hover:text-gray-900">About</Link></li>
+                        <li className="mb-6"><Link to="/contact" className=" text-gray-600 hover:text-gray-900">Contact</Link></li>
                     </ul>
                 </div>
                 {/* <!--End Col--> */}
