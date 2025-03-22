@@ -41,9 +41,8 @@ function Footer() {
                 <div className="lg:mx-auto text-left ">
                     <h4 className="text-lg text-gray-900 font-medium mb-7">Support</h4>
                     <ul className="text-sm  transition-all duration-500">
-                        <li className="mb-6"><a href="javascript:;"  className="text-gray-600 hover:text-gray-900">Customer Support</a></li>
-                        <li className="mb-6"><a href="javascript:;"  className=" text-gray-600 hover:text-gray-900">Terms & Conditions</a></li>
-                        <li ><a href="javascript:;"  className=" text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
+                        <li className="mb-6"><Link to="/terms-and-conditions" className=" text-gray-600 hover:text-gray-900">Terms & Conditions</Link></li>
+                        <li ><Link to="/privacy-policy"  className=" text-gray-600 hover:text-gray-900">Privacy Policy</Link></li>
                     </ul>
                 </div>
                 {/* <!--End Col--> */}
